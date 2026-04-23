@@ -1,5 +1,5 @@
-site_name: 不動産業界インプット読本
-site_description: AIコンサル転職者のための不動産業界入門読本
+site_name: インプット読本
+site_description: 書籍をジャンル別にリライトした読本集
 
 theme:
   name: material
@@ -31,12 +31,18 @@ theme:
     code: Roboto Mono
 
 nav:
-  - はじめに: index.md
-  - Vol.1 業界の全体地図: vol1.md
-  - Vol.2 業界人のリアル: vol2.md
-  - Vol.3 テクノロジーが変える不動産業: vol3.md
-  - Vol.4 消費者から見た不動産取引: vol4.md
-  - Vol.5 業界の面白話と裏側: vol5.md
+  - ホーム: index.md
+  - 不動産業界:
+    - 読本一覧: fudosan/index.md
+    - Vol.1 業界の全体地図: fudosan/vol1.md
+    - Vol.2 業界人のリアル: fudosan/vol2.md
+    - Vol.3 テクノロジーが変える不動産業: fudosan/vol3.md
+    - Vol.4 消費者から見た不動産取引: fudosan/vol4.md
+    - Vol.5 業界の面白話と裏側: fudosan/vol5.md
+  # 新ジャンル追加時はここに追記する
+  # - プロダクトマネジメント:
+  #   - 読本一覧: pm/index.md
+  #   - Vol.1 ...: pm/vol1.md
 
 plugins:
   - search:
