@@ -39,10 +39,12 @@ nav:
     - Vol.3 テクノロジーが変える不動産業: fudosan/vol3.md
     - Vol.4 消費者から見た不動産取引: fudosan/vol4.md
     - Vol.5 業界の面白話と裏側: fudosan/vol5.md
-  # 新ジャンル追加時はここに追記する
-  # - プロダクトマネジメント:
-  #   - 読本一覧: pm/index.md
-  #   - Vol.1 ...: pm/vol1.md
+  - プロダクトマネジメント:
+    - 読本一覧: product-management/index.md
+    - Vol.1 PM入門と思考法: product-management/vol1.md
+    - Vol.2 プロダクト戦略と発見: product-management/vol2.md
+    - Vol.3 チームと組織を動かす: product-management/vol3.md
+    - Vol.4 PMFと新規事業: product-management/vol4.md
 
 plugins:
   - search:
