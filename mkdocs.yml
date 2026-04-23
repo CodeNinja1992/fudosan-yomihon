@@ -1,0 +1,49 @@
+site_name: 不動産業界インプット読本
+site_description: AIコンサル転職者のための不動産業界入門読本
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  font:
+    text: Noto Sans JP
+    code: Roboto Mono
+
+nav:
+  - はじめに: index.md
+  - Vol.1 業界の全体地図: vol1.md
+  - Vol.2 業界人のリアル: vol2.md
+  - Vol.3 テクノロジーが変える不動産業: vol3.md
+  - Vol.4 消費者から見た不動産取引: vol4.md
+  - Vol.5 業界の面白話と裏側: vol5.md
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
